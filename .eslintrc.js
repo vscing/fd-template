@@ -85,4 +85,12 @@ module.exports = {
         'use-isnan': 2, //禁止比较时使用NaN，只能用isNaN()
         'vars-on-top': 2, //var必须放在作用域顶部
     },
+    globals: {
+        React: true,
+        mount: true,
+        mountWithRouter: true,
+        context: true,
+        jsdom: true,
+        JSX: true,
+    },
 };
